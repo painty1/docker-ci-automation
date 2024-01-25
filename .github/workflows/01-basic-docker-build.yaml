@@ -24,4 +24,4 @@ jobs:
         uses: docker/build-push-action@v5
         with:
           push: ${{ github.event_name != 'pull_request' }}
-          tags: painty1/docker-ci-automation:latest,painty1/docker-ci-automation:01
+          tags: painty/docker-ci-automation:latest,painty/docker-ci-automation:01
